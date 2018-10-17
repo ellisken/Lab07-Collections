@@ -16,7 +16,7 @@ namespace CardDeckCollections
             Card c1 = new Card(Suit.Hearts, "Q");
             Card c2 = new Card(Suit.Hearts, "K");
             Card c3 = new Card(Suit.Spades, "J");
-            Card c4 = new Card(Suit.Spades, "1");
+            Card c4 = new Card(Suit.Spades, "4");
             Card c5 = new Card(Suit.Clubs, "5");
             Card c6 = new Card(Suit.Clubs, "3");
             Card c7 = new Card(Suit.Hearts, "9");

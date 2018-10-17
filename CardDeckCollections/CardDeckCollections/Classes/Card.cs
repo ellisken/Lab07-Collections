@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CardDeckCollections.Classes
 {
-    class Card
+    public class Card
     {
         public Suit Suit { get; set; }
         public string Type { get; set; }
@@ -16,7 +16,7 @@ namespace CardDeckCollections.Classes
         }
     }
 
-    enum Suit
+    public enum Suit
     {
         Hearts,
         Diamonds,
