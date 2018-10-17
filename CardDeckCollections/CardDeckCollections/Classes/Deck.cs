@@ -8,6 +8,7 @@ namespace CardDeckCollections.Classes
     class Deck<T> : IEnumerable
     {
         List<T> cards = new List<T>();
+        int count = 0;
 
         /// <summary>
         /// Enumerator to allow foreach for cards
@@ -35,11 +36,13 @@ namespace CardDeckCollections.Classes
         public void Add(T card)
         {
             cards.Add(card);
+            count++;
         }
 
         public void Remove(T card)
         {
             cards.Remove(card);
+            count--;
         }
         
         /// <summary>
